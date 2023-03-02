@@ -1,0 +1,147 @@
+@import url('https://fonts.googleapis.com/css2?family=Rubik+Storm&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    --myfont: 'mulish', sans-serif;
+    --my-btn-font: 'Montserrat', sans-serif;
+    --lg-lightcolor: linear-gradient(to left, rgba(116, 235, 213, 0.6), rgba(159, 172, 230, 0)) --lg-color:linear-gradient(to left, #74ebd5, #9face6);
+
+}
+
+body {
+    background-image: url('img5.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-family: var(--myfont);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100vw;
+}
+
+.container {
+    background-color: white;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    overflow: hidden;
+    width: calc(100vw - 65vw);
+    max-width: 100%;
+}
+
+.header {
+    background: var(--lg-color);
+    padding: 30px;
+}
+
+.header h2 {
+    color: #222;
+    font-family: var(--my-btn-font);
+    font-size: 24px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.form {
+    padding: 40px;
+}
+
+.form-control {
+    margin-bottom: 20px;
+    position: relative;
+}
+
+.form-control label {
+    display: inline-block;
+    margin-bottom: 5px;
+}
+
+.form-control input {
+    width: 100%;
+    border: 2px solid #f0f0f0;
+    border-radius: 5px;
+    display: block;
+    font-family: var(--myfont);
+    font-size: 12px;
+}
+
+.form-control input:focus {
+    outline: 0;
+    border-color: blue;
+}
+
+.form-control.success input {
+    border-color: green;
+}
+
+.form-control.success input {
+    border-color: red;
+}
+
+.form-control i {
+    position: absolute;
+    right: 12%;
+    top: 38px;
+    visibility: hidden;
+}
+
+.form-control.success i.fa-check-circle {
+    color: green;
+    visibility: visible;
+}
+
+.form-control.error i.fa-exclamation-circle {
+    color: red;
+    visibility: visible;
+
+}
+
+.form-control small {
+    color: red;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+}
+
+.form-control.error small {
+    visibility: visible;
+}
+
+.form .btn {
+    background-color: var(--lg-color);
+    border-radius: 6px;
+    border: none;
+    outline: none;
+    color: white;
+    display: block;
+    font-family: var(--my-btn-font);
+    font-size: 16px;
+    padding: 15px;
+    margin-top: 20px;
+    width: 100%;
+    font-weight: bold;
+    text-transform: lowercase;
+    transition: all is ease;
+
+}
+
+.form .btn:hover {
+    background: linear-gradient(to right, #74ebd5, #9face6);
+}
+
+.form-control input {
+    padding: 3%;
+}
+
+@media(max-width:998px) {
+    .container {
+        width: calc(100vw - 35vw);
+        max-width: 100%;
+    }
+}
