@@ -1,0 +1,215 @@
+body{
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important; 
+}
+.ht{
+    min-height: 485px;
+}
+.Button{
+    color: white !important;
+    padding: 6px 12px !important;
+}
+.stulogoutbtn{
+    text-decoration: none;
+    color: grey;
+}
+.onmousehover{
+    color: grey!important;
+}
+.onmousehover :hover{
+    color: white!important;
+}
+#heght
+{
+    background-color: white;
+    width: 40%;
+    margin-top: 12%!important;
+    margin: auto; 
+    border-radius: 10px;
+}
+.inpt{
+    margin: auto;
+    width: 65%;
+}
+
+.login-btn{
+    width: fit-content;
+    margin: 0 auto;
+}
+
+@media (max-width:480px){
+    #heght{
+        width: 70%;
+    }
+}
+.hegt{
+    min-height:485px ;
+}
+.bg {
+
+    background-color: #51bddd;
+}
+
+.head {
+    margin-left: 38%;
+
+
+}
+
+.nav-item1 {
+    margin-left: 169px;
+}
+
+.icon {
+    margin-top: 30px;
+    color: blue;
+
+}
+
+.index {
+    margin-left: 50%;
+
+}
+
+.index1 {
+    height: 500px;
+    background-color: #e4e4e4;
+}
+
+.page {
+
+    margin-left: 26%;
+}
+
+
+.btn5 {
+    margin-left: 40%;
+}
+
+.page-container {
+
+    width: 80%;
+    background-color: white;
+    margin: 0px auto;
+
+}
+
+.page-header {
+    background-color: #f2f2f2;
+}
+
+.btn-group1 {
+    width: fit-content;
+    margin: 0 auto;
+
+}
+
+.icon span:hover {
+    color: #0067bb;
+
+}
+
+@media screen and (max-width:480px) {
+    .nav-item1 {
+        margin: 0;
+    }
+
+    .head {
+        margin-left: 0px;
+    }
+}
+.fs1{
+    font-size: 14px;
+}
+.bg {
+
+    background-color: #51bddd;
+}
+
+
+.index1 {
+    height: 500px;
+    background-color: #e4e4e4;
+}
+
+.Quiz {
+    height: 570px;
+    background-color: #f2f2f2;
+}
+
+.part1 {
+    height: 100%;
+    width: 10%;
+    background: #f2f2f2;
+}
+
+.part2 {
+    height: 100%;
+    width: 80%;
+    background: white;
+}
+
+.btn2 {
+    margin-left: 17%;
+}
+
+.quiz {
+    margin-left: 79px;
+
+
+}
+
+.form-select {
+    width: 160%;
+}
+
+.box {
+    height: 240px;
+    background-color: white;
+    border: 1px solid gray;
+}
+
+.parts1 {
+    background-color: #336fa3;
+    border: 1px solid gray;
+
+}
+
+.parts2 {
+    height: 50px;
+
+    background-color: white;
+    border: 1px solid gray;
+}
+
+
+
+/* end css */
+/* start media query */
+
+@media screen and (max-width:480px) {
+
+
+    .form-select {
+        width: 100%;
+    }
+
+    .form-check {
+        width: 100%;
+        margin-left: 0px;
+    }
+
+    .margin {
+        margin-left: 70px;
+    }
+
+    .iconss {
+        padding: 1px;
+    }
+
+    .space {
+        margin-bottom: 20px;
+    }
+
+
+}
+    
